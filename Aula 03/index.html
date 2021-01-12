@@ -74,8 +74,11 @@
     </main>
 
     <script>
-        //alert("Olá mundo!");
         console.log("Olá mundo!");
+        console.log(document);
+        console.log(document.querySelector(".titulo-pagina"));
+        console.log(document.querySelector(".titulo-pagina").textContent);
+        document.querySelector(".titulo-pagina").textContent = "Sistema - EdiCursos";
     </script>
 </body>
 </html>
